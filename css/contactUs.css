@@ -1,0 +1,173 @@
+.contactUs{
+	/*基本属性*/
+	margin: 0px;
+	padding:0px;
+	border: 0.7vw solid #008b8b;
+	border-radius: 20px;
+	width: 80%;
+	height:auto;
+	
+	/*位置*/
+	position: relative;
+	top:25rem;
+	
+	left:11%;
+}
+
+.image .tree{
+	/*树图片的位置*/
+	position: absolute;
+	right: -2%;
+	top:-1.5%;
+	
+	width: 15%;
+	height: 100%;
+}
+
+.image .leave{
+	position: absolute;
+	top: 5%;
+	left: 25%;
+	
+	width:6.5%;
+	height: auto;
+}
+
+.image .ladybug{
+	position: absolute;
+	bottom: -2%;
+	left:-2%;
+	width:5%;
+}
+
+.image .chameleon{
+	position: absolute;
+	bottom: -4%;
+	right: 8%;
+	
+	width:50%;
+}
+
+.image .treeWithSometing{
+	position: absolute;
+	top:-5%;
+	
+	width: 20%;
+}
+
+.contactUs h1{
+	/*文本中心对称*/
+	text-align: center;
+	
+	color: #2f4f4f;
+	font-size: 3.6vw;
+	font-weight: 400;
+	
+	/*文字不可以选择复制*/
+	user-select: none;
+}
+
+.txt {
+	position:relative;
+	left:16%;
+	width: 70%;
+	font-size:2vw;
+}
+
+.txt p{
+	color:#708090;
+	font-size:1.3vw;
+}
+
+.buttonbox{
+	position: relative;
+	display: flex;
+	margin: 5%;
+}
+
+.buttonbox button{
+	/*按钮位置*/
+	position: absolute;
+	height:auto;
+	border-radius: 2vw;
+	padding: 0.5rem;
+	
+	background: #228b22;
+	/*隐藏外边框*/
+	
+	border-style: none;
+	font-size: 1.2vw;
+	color: white;
+	
+	/*盒子阴影*/
+	box-shadow: 0px 0px 5px 1px gray;
+	
+	transition: all 0.3s;
+}
+
+.button1 .qq{
+	left:10%;
+	width: 20%;
+}
+
+#qqgroup {
+	position:absolute;
+	bottom:-4vw;
+	left: -4vw;
+	width: 8vw;
+	height: 1vw;
+	background-color: gray;
+	/*修改透明度*/
+	opacity: 0.5;
+	color: white;
+	font-size: 1vw;
+	/*一开始隐藏*/
+	display: none;
+}
+
+.button2 .email{
+	left:35%;
+	width: 20%;
+	
+}
+
+#Email{
+	position: absolute;
+	bottom:-4vw;
+	left: -4vw;
+	width: 15vw;
+	height: 1vw;
+	background-color: gray;
+	/*修改透明度*/
+	opacity: 0.5;
+	color: white;
+	
+	/*一开始隐藏*/
+	display:none ;
+}
+
+.button3 .github{
+	left:60%;
+	width: 20%;
+	
+}
+
+.qq:hover{
+	transform: scale(1.1);
+}
+
+.email:hover{
+	transform: scale(1.1);
+}
+
+.github:hover{
+	transform: scale(1.1);
+}
+
+.button1:hover #qqgroup{
+	display: block;
+}
+
+.button2:hover #Email{
+	display: block;
+}
